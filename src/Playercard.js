@@ -7,7 +7,8 @@ function Playercard(props) {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Body>
-      <Card.Img variant="top" src={props.Player.image} alt={props.Player.name}/>
+     <Card.Img variant="top" src={props.Player.image} alt={props.Player.name}/>
+
         <Card.Title style={{fontSize:30}}>name:{props.Player.name}</Card.Title>
         <div style={{display:'flex',gap:'40px'}}>
         <Card.Text style={{fontSize:20}}>Number:{props.Player.Number}</Card.Text>

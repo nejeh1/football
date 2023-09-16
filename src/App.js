@@ -10,6 +10,7 @@ function App() {
     {Players.map((player, index) => (
         <Playercard key={index} Player={player} />
       ))}
+     
     </div>
   )  
 }
